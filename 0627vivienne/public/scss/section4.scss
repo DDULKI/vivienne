@@ -1,0 +1,43 @@
+#section4 {
+    .container {
+        .gap {
+            .content{
+
+            }
+            .animated-title {
+                font-size: 32px;
+                font-family: 'Arial, "Helvetica Neue", Helvetica, sans-serif;';
+                font-size: 400;
+                position: relative;
+                width: 100%;
+                max-width: 100%;
+                height: auto;
+                padding: 100px 0;
+                overflow-x: hidden;
+                overflow-y: hidden;
+                
+                .track {
+                    position: absolute;
+                    white-space: nowrap;
+                    will-change: transform;
+                    animation: marquee 60s linear infinite;
+                    .text-content{
+                        color: #003abf;
+                        font-family: Arial, Helvetica, sans-serif;
+                        -webkit-transform: translateY(calc(100%-8rem));
+                        transform:translateY(calc(100%-8rem));
+                    }
+                }
+                
+            }
+        }
+    }
+}
+
+@keyframes marquee {
+    from { transform: translateX(0); }
+    to { transform: translateX(-50%); }
+  }
+  @media (hover: hover) and (min-width: 700px){
+  .animated-title .content {-webkit-transform: translateY(calc(100% - 8rem)); transform: translateY(calc(100% - 8rem));}
+      }

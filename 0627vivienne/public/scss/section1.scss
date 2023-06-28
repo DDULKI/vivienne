@@ -1,0 +1,205 @@
+#section1{
+    position: relative;
+    width: 100%;
+    height: 941.914px;
+    background: url(../img/1678946747_0.jpg) no-repeat 50% 50%;
+    background-size: cover;
+    z-index: 1;
+    font-family: Arial, Helvetica, sans-serif;
+    .container{
+        width: 100%;
+        // height: 941.914px;
+        // background: url(../img/1678946747_0.jpg) no-repeat 50% 50%;
+        // background-size: cover;
+        .gap {
+            width:100%;
+            .content {
+                width: 100%;
+                position: relative;
+                .left {
+                    width: 100%;
+                    ul {
+                        position: absolute;
+                        z-index: 9;
+                        top: 25px;
+                        left: 25px;
+                        li {
+                            padding: 12px 0;
+                            h4 {
+                                font-size: 14px;
+                                font-weight: 700;
+                                color: rgb(0,0,0);
+                                &:focus { 
+                                    color: #fff;
+                                }
+                                &:hover {
+                                   color: #fff;
+                                }
+                                &.on {
+                                    color : #fff;
+                                }
+                            }
+                        }
+                    }
+                }
+                .center {
+                    // width: 162px;
+                    // position: absolute;
+              
+                    // top: 0;
+                    // right: 50%;
+                    // padding: 20px 0 0 0;
+                        position: absolute;
+                        top: 0;
+                        right: 0;
+                        z-index: 8;
+                        width: 100%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        text-align: center;
+                        padding: 20px 0 0 0;
+                       
+                    a {
+                        // position: fixed;
+                        img {
+                            width: 162px;
+                            height: 100.297px;
+                        }
+                    }
+
+                    // 스크롤 이벤트 
+                    &.on {
+                            .center {
+                                z-index: 4; 
+                                display: flex;
+                                align-items: center;
+                                position:fixed;
+                                top:0;
+                                a {
+                                    position: fixed;
+                                    img {
+
+                                    }
+                                }
+                            }
+                    }
+                }
+                .title {
+                    // user-select: none;
+                    // position: absolute;
+                    // z-index: 6;
+                    // top: 50%;
+                    // left: 50%;
+                    // display: flex;
+                    // justify-content: center; 
+                    // align-items: center;
+                    // text-align: center;
+                    width: 100%;
+                    position: absolute;
+                    top: 0;
+                    z-index: 7;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 500px 0;
+                    ul {
+                        transition: all 0.3s;
+                        text-align: center;
+                        li {
+                          display: flex;
+                          justify-content: center;
+                          align-items: center;
+                          
+                            h2 {
+                                font-size: 18px;
+                                font-weight: 700;
+                                color: rgb(0,0,0);
+                                &:focus { 
+                                    color: #fff;
+                                }
+                                &:hover {
+                                   color: #fff;
+                                }
+                                &.on {
+                                    color : #fff;
+                                }
+                            }
+                            a {
+                                img {
+                                    width: 290px;
+                                    height: 38.813;
+                                    
+                                } 
+                            }
+                            transition: all 0.5s;
+                            &:hover {
+                                   transform: scale(0.9);
+                            }
+                        }
+                    }
+                }
+                   
+                .right {
+                    position: relative;
+                        ul { 
+                            width: 100%;
+                            position: absolute;
+                            z-index: 8;
+                            top: 20px;
+                            right: 0;
+                            display: flex;
+                            justify-content: flex-end;
+                            align-items: flex-end;
+                            li {
+                                height: 44px;
+                                text-align: center;
+                                padding: 0 30px 0 0;
+                                letter-spacing: -1px;
+                                
+                                span {
+                                    color: rgb(0,0,0);
+                                    font-size: 17px;
+                                    
+                                    &:focus { 
+                                        color: #fff;
+                                    }
+                                    &:hover {
+                                       color: #fff;
+                                    }
+                                    &.on {
+                                        color : #fff;
+                                    }
+                                }
+                                h4,a {
+                                    // position: fixed;
+                                    font-size: 12px;
+                                    font-weight: 700;
+                                    line-height: 150%;
+                                    color: #fff;
+                                    cursor: pointer;
+                                    
+
+                                }
+                                
+                                
+                            }
+                        }
+
+                    // 스크롤 이벤트 
+                    &.on {
+                       .right {
+                            z-index: 5; 
+                            display: flex;
+                            align-items: center;
+                            position:fixed;
+                            top:0;
+                       }
+                    }
+
+                }
+            }
+        }
+
+    }
+}

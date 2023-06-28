@@ -1,0 +1,58 @@
+로그인 설계 
+
+1730 / 2 
+
+width 
+865 씩 
+
+height 440 씩 
+
+left right 
+
+title 430 
+font 12 px 
+
+2번째 타이틀이 왜 더 크지? ;;ㅋㅋ 14px 
+input 박스 288 x 46 
+
+
+
+
+회원가입 버튼 
+
+480 x 35 
+인풋 박스 
+360px 
+
+100 버튼 
+
+
+UpdateComponent.jsx 
+640 x 122
+left 
+320 x 100 
+
+정슬기 구매등급 287x24.38 
+
+등급별 287 x 27.19 
+
+right 
+284 x 39 
+
+
+Section1Component 에 sessionStorage를 사용했어. 
+근데 나는 SignupComponent에도 회원가입을 하면 로그인으로 들어가고 싶어. 
+그럼 세션 스토레이지가 아니라 유즈로케이션을 사용해. 
+유즈로케이션이 뭔지? 설명할 수 있어야겠지. 
+
+react router에서 지원하는 Hook. useNavigate를 이용해 전송된 데이터를 받을 수 있다. 예시는 다음과 같다.
+
+useLocation 훅은 현재의 URL을 대표하는 location 객체를 반환한다. 너는 URL이 바뀔 때마다 새로운 location이 반환되는 useState 처럼 생각할 수 있다.
+
+Ref는 render 메서드에서 생성된 DOM 노드나 React 엘리먼트에 접근하는 방법을 제공합니다. 일반적인 React의 데이터 플로우에서 props는 부모 컴포넌트가 자식과 상호작용할 수 있는 유일한 수단입니다.
+
+회원가입을 
+
+
+NoticeWriteFormPage 
+640 x 569 

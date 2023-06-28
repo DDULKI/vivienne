@@ -1,0 +1,158 @@
+#section1 {
+  position: relative;
+  width: 100%;
+  height: 941.914px;
+  background: url(../img/1678946747_0.jpg) no-repeat 50% 50%;
+  background-size: cover;
+  z-index: 1;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#section1 .container {
+  width: 100%;
+}
+#section1 .container .gap {
+  width: 100%;
+}
+#section1 .container .gap .content {
+  width: 100%;
+  position: relative;
+}
+#section1 .container .gap .content .left {
+  width: 100%;
+}
+#section1 .container .gap .content .left ul {
+  position: absolute;
+  z-index: 9;
+  top: 25px;
+  left: 25px;
+}
+#section1 .container .gap .content .left ul li {
+  padding: 12px 0;
+}
+#section1 .container .gap .content .left ul li h4 {
+  font-size: 14px;
+  font-weight: 700;
+  color: rgb(0, 0, 0);
+}
+#section1 .container .gap .content .left ul li h4:focus {
+  color: #fff;
+}
+#section1 .container .gap .content .left ul li h4:hover {
+  color: #fff;
+}
+#section1 .container .gap .content .left ul li h4.on {
+  color: #fff;
+}
+#section1 .container .gap .content .center {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 8;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px 0 0 0;
+}
+#section1 .container .gap .content .center a img {
+  width: 162px;
+  height: 100.297px;
+}
+#section1 .container .gap .content .center.on .center {
+  z-index: 4;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 0;
+}
+#section1 .container .gap .content .center.on .center a {
+  position: fixed;
+}
+#section1 .container .gap .content .title {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  z-index: 7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 500px 0;
+}
+#section1 .container .gap .content .title ul {
+  transition: all 0.3s;
+  text-align: center;
+}
+#section1 .container .gap .content .title ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s;
+}
+#section1 .container .gap .content .title ul li h2 {
+  font-size: 18px;
+  font-weight: 700;
+  color: rgb(0, 0, 0);
+}
+#section1 .container .gap .content .title ul li h2:focus {
+  color: #fff;
+}
+#section1 .container .gap .content .title ul li h2:hover {
+  color: #fff;
+}
+#section1 .container .gap .content .title ul li h2.on {
+  color: #fff;
+}
+#section1 .container .gap .content .title ul li a img {
+  width: 290px;
+  height: 38.813;
+}
+#section1 .container .gap .content .title ul li:hover {
+  transform: scale(0.9);
+}
+#section1 .container .gap .content .right {
+  position: relative;
+}
+#section1 .container .gap .content .right ul {
+  width: 100%;
+  position: absolute;
+  z-index: 8;
+  top: 20px;
+  right: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+#section1 .container .gap .content .right ul li {
+  height: 44px;
+  text-align: center;
+  padding: 0 30px 0 0;
+  letter-spacing: -1px;
+}
+#section1 .container .gap .content .right ul li span {
+  color: rgb(0, 0, 0);
+  font-size: 17px;
+}
+#section1 .container .gap .content .right ul li span:focus {
+  color: #fff;
+}
+#section1 .container .gap .content .right ul li span:hover {
+  color: #fff;
+}
+#section1 .container .gap .content .right ul li span.on {
+  color: #fff;
+}
+#section1 .container .gap .content .right ul li h4, #section1 .container .gap .content .right ul li a {
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 150%;
+  color: #fff;
+  cursor: pointer;
+}
+#section1 .container .gap .content .right.on .right {
+  z-index: 5;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 0;
+}

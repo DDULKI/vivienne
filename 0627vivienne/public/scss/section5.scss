@@ -1,0 +1,91 @@
+#section5 {
+    width:100%; 
+    // height: 896px;
+        .container {
+            width: 100%;
+            .gap {
+                width: 100%;
+                .content {
+                    width: 100%;
+                    display: flex;
+                    .left-img-box {
+                        img {
+                            width: 951.5px;
+                            height: 880px;
+                        }
+                    }
+                    .right-img-box {
+                        background: rgb(197,33,34);
+                        width: 951.5px;
+                        height: 880px;
+                        display: flex;
+                       
+                        > ul {
+                            margin:auto;
+                            > li { 
+                               padding: 5px 0;
+                                text-align: center;
+                                h2 {
+                                    position: relative;
+                                    display: inline-block;
+                                    text-align: center;
+                                    font-size: 62px;
+                                    font-weight: 400;
+                                    
+                                    font-family: 'Times New Roman', Times, serif;
+                                    padding: 50px 0 50px 0;
+                                    a{
+                                        color:rgb(0,0,0);
+                                    }
+                                    &::after{
+                                        content: '';
+                                        position: absolute;
+                                        bottom: 0;
+                                        left:0;
+                                        width:100%;
+                                        height: 50px;
+                                        background:url(../img/Accessories.svg) no-repeat 50% 100%;
+                                        background-size: cover;
+                                        opacity: 0;
+                                        transition: all 0.3s;
+                                    }
+                                    &:hover:after{
+                                        opacity: 1; 
+                                    }
+
+                                }
+                                &:nth-child(1){
+                                    h2 {
+                                        &::after{
+                                            bottom: 0px;
+                                        } 
+                                    }     
+                                }
+                                &:nth-child(2){
+                                    h2 {
+                                        &::after{
+                                            bottom: 0px;
+                                        } 
+                                    }     
+                                }
+                                &:nth-child(3){
+                                    h2 {
+                                        &::after{
+                                            bottom: 10px;
+                                        } 
+                                    }     
+                                }
+                                &:nth-child(4){
+                                    h2 {
+                                        &::after{
+                                            bottom: 13px;
+                                        } 
+                                    }     
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+}

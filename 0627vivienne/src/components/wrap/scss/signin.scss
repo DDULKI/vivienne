@@ -1,0 +1,128 @@
+#signin {
+    width: 100%;
+    .container {
+        width: 100%;
+        height: 440px;
+        max-width: 1730px;
+        margin: 0 auto;
+        padding: 80px 0 0 0;
+        .content {
+            width: 100%;
+          
+            form {
+                display: flex;
+                .left {
+                    width: 50%;
+                    padding: 0 0 0 20px;
+                
+                    ul {
+                        width: 100%;
+                        li {
+                           padding: 20px 0;
+                            &:nth-child(1){
+                                .title1 {
+                                    font-size: 12px;
+                                    font-weight: 700;
+                                    color: #000;
+                                }
+                            }
+                            &:nth-child(2){
+                                padding: 0 0 100px 0;
+                                .title2 {
+                                    font-size: 14px;
+                                    color: #000;
+                                    font-weight: 400;
+                                }
+                            }
+                        }
+                    }
+                    button{
+                        border: 1px solid #333; 
+                        width: 190px;
+                        height: 36px;
+                        background: #000;
+                        color: #fff;
+                       
+                        a {
+                            color: #fff;
+                            
+                        }
+                    }
+                }
+                .right {
+                    width: 50%;
+                    position: relative;
+                    ul {
+                        width: 100%;
+                        width: 865px;
+                        li {
+                            padding: 20px 0;
+                            
+                            &:nth-child(1){
+                                .title1 {
+                                    font-size: 12px;
+                                }
+                            }
+                            &:nth-child(2){
+                                .title2 {
+                                    font-size: 14px;
+                                }
+                            }
+                         
+                        }
+                      
+                    }
+                    .login-box {
+                       
+                        ul {
+                            display: flex;
+                            
+                            li {    
+                                padding: 30px 20px 30px  0;
+                                input {
+                                    outline: none;
+                                    width: 200px;
+                                    border: 0;
+                                    border-bottom: 1px solid #000;
+                                }
+                            }
+                        }
+                    }
+                    .right-bottom {
+                        width: 270px;
+                        height: 17px;
+                       
+                        label {
+                            padding: 0 0 10px 0;
+                            font-size: 12px;
+                            input {
+                               
+                                width: 11px;
+                                height: 11px;
+                            }
+                        }
+                    }
+                    .btn-box{
+                        padding: 10px 0 0 0;
+                        button {
+                            border: 1px solid #333; 
+                            width: 190px;
+                            height: 36px;
+                            background: #fff;
+                            color: #000;
+                            a {
+                                
+                            }
+                            &:hover {
+                                background: #000;
+                                color: #fff;
+                            }
+                        }
+    
+                    }
+                }
+            }
+
+        }
+    }
+}

@@ -1,0 +1,7 @@
+#Update .container .content .row1 {
+  display: flex;
+  align-items: center;
+}
+#Update .container .content .row2 .right-box ul li {
+  display: flex;
+}

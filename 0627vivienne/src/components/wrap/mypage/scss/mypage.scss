@@ -1,0 +1,158 @@
+#Mypage {
+    width: 100%;
+    padding: 250px 0 0 60px;
+    
+    .container {
+        width: 100%;
+        max-width: 1050px;
+        margin: 0 auto;
+       
+        .gap {
+            width: 100%;
+            .title {
+                
+            }
+            .content {
+                width: 640px;
+                display: flex;
+                
+                
+                .nav {
+                    ul {
+                        width: 100%;
+                        li {
+                            padding: 10px 0 0 0;
+                            h2 {
+
+                                font-size: 28px;
+                                color: #000;
+                                padding: 0 0 10px 0;
+                            }
+                            
+                            a {
+                                font-size: 12px;
+                                font-weight: 400;
+                                color: #000;
+                                text-indent:20px;
+                            }
+                        }
+                    }
+                }
+                .center-box {
+                    width: 100%;
+                    padding: 0 0 0 200px;
+                    height: 394px;
+                    .row1 {
+                        width: 100%;
+                        ul {
+                            width: 100%;
+                            li {
+                                padding: 5px 0;
+                                &:nth-child(1){
+                                    h2 {
+                                        font-size: 14px;
+                                        font-weight: 600;
+                                    }
+                                }
+                                &:nth-child(2){
+                                    font-weight: 300;
+                                    font-size: 13px;
+                                    span {
+                                        line-height: 1.6;
+                                        font-weight: 300;
+                                    }
+                                    a{
+                                        color: #d5b156;
+                                        text-decoration:underline;
+                                        line-height: 1.6;
+                                        font-weight: 400;
+                                    }
+                                }
+                                &:nth-child(3){
+                                    p {
+                                        font-weight: 300;
+                                        font-size: 13px;
+                                    }
+                                    padding: 0 0 25px 0;
+                                    border-bottom: 1px solid #000;
+                                }
+                            }
+                        }
+                    }
+                    .row2 {
+                        display: flex;
+                        width: 640px;
+                        height: 112px;
+                        padding: 20px 0 0 0;
+                        // margin: 0 auto;
+                        .left-box {
+                           margin: 0 0 0 30px ;
+                            ul {
+                                li {
+                                    &:nth-child(1){
+                                        
+                                        span {
+
+                                        }
+                                    }
+                                    &:nth-child(2){
+                                            width: 190px;
+                                            padding: 10px 0;
+                                            margin: 13px 0;
+                                            button {
+                                                width: 190px;
+                                                height: 36px;
+                                                background: #fff;
+                                                color: #000;
+                                                text-align: center;
+                                               
+                                                &:hover {
+                                                    background: #eee;
+                                                    color: #000;
+                                                }
+                                            }
+                                        
+                                    }
+                                }
+                            }
+                        }
+                        .right-box {
+                            margin: 0 30px 0 30px ;
+                            ul {
+                                li {
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    .left {
+                                        
+                                    }
+                                    .right {
+        
+                                    }
+                                    .btn-box{
+                                        width: 190px;
+                                        padding: 10px 0 0 0;
+                                        button {
+                                            border: 1px solid #333; 
+                                            width: 190px;
+                                            height: 36px;
+                                            background: #fff;
+                                            color: #000;
+                                           
+                                            &:hover {
+                                                background: #eee;
+                                                color: #fff;
+                                            }
+                                        }
+                    
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                
+            }
+        }
+    }
+}

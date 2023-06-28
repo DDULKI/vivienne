@@ -1,0 +1,69 @@
+#section5 {
+  width: 100%;
+}
+#section5 .container {
+  width: 100%;
+}
+#section5 .container .gap {
+  width: 100%;
+}
+#section5 .container .gap .content {
+  width: 100%;
+  display: flex;
+}
+#section5 .container .gap .content .left-img-box img {
+  width: 951.5px;
+  height: 880px;
+}
+#section5 .container .gap .content .right-img-box {
+  background: rgb(197, 33, 34);
+  width: 951.5px;
+  height: 880px;
+  display: flex;
+}
+#section5 .container .gap .content .right-img-box > ul {
+  margin: auto;
+}
+#section5 .container .gap .content .right-img-box > ul > li {
+  padding: 5px 0;
+  text-align: center;
+}
+#section5 .container .gap .content .right-img-box > ul > li h2 {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  font-size: 62px;
+  font-weight: 400;
+  font-family: "Times New Roman", Times, serif;
+  padding: 50px 0 50px 0;
+}
+#section5 .container .gap .content .right-img-box > ul > li h2 a {
+  color: rgb(0, 0, 0);
+}
+#section5 .container .gap .content .right-img-box > ul > li h2::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  background: url(../img/Accessories.svg) no-repeat 50% 100%;
+  background-size: cover;
+  opacity: 0;
+  transition: all 0.3s;
+}
+#section5 .container .gap .content .right-img-box > ul > li h2:hover:after {
+  opacity: 1;
+}
+#section5 .container .gap .content .right-img-box > ul > li:nth-child(1) h2::after {
+  bottom: 0px;
+}
+#section5 .container .gap .content .right-img-box > ul > li:nth-child(2) h2::after {
+  bottom: 0px;
+}
+#section5 .container .gap .content .right-img-box > ul > li:nth-child(3) h2::after {
+  bottom: 10px;
+}
+#section5 .container .gap .content .right-img-box > ul > li:nth-child(4) h2::after {
+  bottom: 13px;
+}

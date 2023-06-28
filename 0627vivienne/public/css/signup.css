@@ -1,0 +1,118 @@
+#SignUp {
+  width: 100%;
+  padding: 130px 0;
+}
+#SignUp .container {
+  width: 100%;
+  max-width: 480px;
+  margin: 0 auto;
+}
+#SignUp .container .gap {
+  width: 100%;
+}
+#SignUp .container .gap .title {
+  padding: 0 0 30px 0;
+}
+#SignUp .container .gap .title h2 {
+  font-size: 14px;
+  font-weight: 600;
+}
+#SignUp .container .gap .content {
+  width: 100%;
+}
+#SignUp .container .gap .content form {
+  width: 100%;
+}
+#SignUp .container .gap .content form .join {
+  padding: 0 0 40px 0;
+}
+#SignUp .container .gap .content form .join .email_input, #SignUp .container .gap .content form .join .name_input, #SignUp .container .gap .content form .join .pw_input1 {
+  width: 100%;
+  border: 0;
+  padding: 0 0 5px 0;
+  border-bottom: 1px solid #000;
+  outline: none;
+}
+#SignUp .container .gap .content form .join .email_input::-moz-placeholder, #SignUp .container .gap .content form .join .name_input::-moz-placeholder, #SignUp .container .gap .content form .join .pw_input1::-moz-placeholder {
+  color: #A0AFFF;
+  font-weight: bold;
+}
+#SignUp .container .gap .content form .join .email_input::placeholder, #SignUp .container .gap .content form .join .name_input::placeholder, #SignUp .container .gap .content form .join .pw_input1::placeholder {
+  color: #A0AFFF;
+  font-weight: bold;
+}
+#SignUp .container .gap .content form .join .hp, #SignUp .container .gap .content form .join .hp_ok {
+  width: 360px;
+  display: flex;
+  border: 0;
+  padding: 0 0 5px 0;
+  border-bottom: 1px solid #000;
+  outline: none;
+}
+#SignUp .container .gap .content form .join .hp .hp-num-btn, #SignUp .container .gap .content form .join .hp_ok .hp-num-btn {
+  border: 1px solid #333;
+  width: 100px;
+  height: 36px;
+  background: #000;
+  color: #fff;
+  font-size: 12px;
+}
+#SignUp .container .gap .content form .join .hp .hp-num-btn:hover, #SignUp .container .gap .content form .join .hp_ok .hp-num-btn:hover {
+  background: #fff;
+  color: #000;
+}
+#SignUp .container .gap .content form .join .check {
+  padding: 10px 0 0 0;
+  border: 1px solid #eee;
+}
+#SignUp .container .gap .content form .join .label_name {
+  display: flex;
+  padding: 0 0 20px 0;
+}
+#SignUp .container .gap .content form .join .label_name.on {
+  color: #ff7777;
+}
+#SignUp .container .gap .content form .join .label_name:nth-child(5) {
+  display: flex;
+}
+#SignUp .container .gap .content form .join select {
+  border: 1px solid #C8C8FF;
+  border-radius: 3px;
+  width: 30%;
+  height: 29px;
+  font-size: 12px;
+  line-height: 18px;
+}
+#SignUp .container .gap .content form .join .sub-msg {
+  font-size: 14px;
+  color: #828C94;
+  letter-spacing: -1px;
+  padding: 0 0 15px 0;
+}
+#SignUp .container .gap .content form .join .error-msg {
+  padding: 10px 0 0 0;
+  font-size: 14px;
+  line-height: 18px;
+  color: #ff7777;
+}
+#SignUp .container .gap .content form .gender {
+  padding: 0 0 40px 0;
+}
+#SignUp .container .gap .content form .error-msg {
+  padding: 10px 0 0 0;
+  font-size: 14px;
+  line-height: 18px;
+  color: #ff7777;
+}
+#SignUp .container .gap .content form .hp-num-btn {
+  border: 1px solid #333;
+  width: 100px;
+  height: 36px;
+  background: #000;
+  color: #fff;
+  font-size: 12px;
+}
+#SignUp .container .gap .content form .hp-num-btn:hover {
+  background: #fff;
+  color: #000;
+}
